@@ -54,7 +54,6 @@ function convertMillisecondsToTime(milliseconds) {
     let minutes = Math.floor((milliseconds % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((milliseconds % (1000 * 60)) / 1000);
 
-    // Create a user-friendly time string
     let timeString = '';
     if (hours > 0) {
         timeString += hours + 'h ';
